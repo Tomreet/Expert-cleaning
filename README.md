@@ -4,6 +4,10 @@
 Минималистичный архитектурный дизайн, монохромная палитра, строгая типографика.  
 Построен на React + TypeScript, Vite, CSS Modules.
 
+## 🌌 Демо
+
+[**expert-cleaning-eight.vercel.app**](https://expert-cleaning-eight.vercel.app/)
+
 ![Превью лендинга](./public/images/og-preview.jpg)
 
 ## ✨ Ключевые особенности
