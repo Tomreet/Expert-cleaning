@@ -44,7 +44,7 @@ npm install
 3. Добавь изображения
 В папку public/images/ положи свои файлы:
 
-text
+```text
 public/
   images/
     hero-bg.jpg          # фон для Hero (архитектурный интерьер или чистое пространство)
@@ -53,6 +53,7 @@ public/
     about.svg            # командное фото или техника Karcher
     avatar.png           # аватар для отзыва (можно заглушку)
     og-preview.jpg       # превью для соцсетей и README
+```
 4. Запусти локально
 ```bash
 npm run dev
