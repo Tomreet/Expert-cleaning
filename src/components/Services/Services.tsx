@@ -1,11 +1,11 @@
 import styles from './Services.module.css';
 import {
-  FiPackage,     // химчистка мебели (мебель/диван)
-  FiSun,        // мойка окон (солнце/стекло)
-  FiHome,       // генеральная уборка (дом)
-  FiTool,       // после ремонта (инструмент)
-  FiBox,        // обеспыливание складов (коробка)
-  FiWind,       // озонирование (ветер/воздух)
+  FiPackage,
+  FiSun,
+  FiHome,
+  FiTool,
+  FiBox,
+  FiWind,
 } from 'react-icons/fi';
 
 const services = [

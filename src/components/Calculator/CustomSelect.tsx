@@ -18,7 +18,6 @@ const CustomSelect = ({ options, value, onChange }: CustomSelectProps) => {
 
   const selectedOption = options.find(opt => opt.value === value);
 
-  // Закрываем при клике вне компонента
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (containerRef.current && !containerRef.current.contains(event.target as Node)) {

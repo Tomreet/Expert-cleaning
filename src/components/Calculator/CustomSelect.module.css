@@ -29,7 +29,6 @@
   border-color: var(--color-text);
 }
 
-/* Стрелка (треугольник) */
 .arrow {
   display: inline-block;
   width: 8px;
@@ -45,7 +44,6 @@
   transform: rotate(225deg);
 }
 
-/* Выпадающий список */
 .dropdown {
   position: absolute;
   top: calc(100% + 4px);
@@ -70,12 +68,10 @@
   border-bottom: none;
 }
 
-/* При наведении — серый, НИКАКОГО СИНЕГО */
 .option:hover {
   background: #f0f0f0;
 }
 
-/* Выбранный пункт */
 .optionSelected {
   font-weight: 500;
   background: #f9f9f9;

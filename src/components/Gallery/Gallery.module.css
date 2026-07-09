@@ -27,7 +27,6 @@
   overflow: hidden;
 }
 
-/* Разделительная линия */
 .divider {
   position: absolute;
   top: 0;
@@ -35,7 +34,7 @@
   width: 1px;
   background: var(--color-text);
   z-index: 2;
-  pointer-events: none; /* чтобы не мешал движению мыши */
+  pointer-events: none;
 }
 
 .handle {
