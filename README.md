@@ -36,9 +36,11 @@
 ```bash
 git clone https://github.com/Tomreet/expert-cleaning.git
 cd expert-cleaning
+```
 2. Установи зависимости
-bash
+```bash
 npm install
+```
 3. Добавь изображения
 В папку public/images/ положи свои файлы:
 
@@ -48,16 +50,17 @@ public/
     hero-bg.jpg          # фон для Hero (архитектурный интерьер или чистое пространство)
     before-sample.jpg    # фото «до» уборки
     after-sample.jpg     # фото «после» уборки
-    about.jpg            # командное фото или техника Karcher
+    about.svg            # командное фото или техника Karcher
     avatar.png           # аватар для отзыва (можно заглушку)
     og-preview.jpg       # превью для соцсетей и README
 4. Запусти локально
-bash
+```bash
 npm run dev
+```
 Открой http://localhost:5173 в браузере.
 
 📁 Структура проекта
-text
+```text
 src/
   components/
     Hero/                # главный экран с заголовком и кнопкой
@@ -76,6 +79,7 @@ src/
     global.css           # сброс стилей, базовые настройки
   App.tsx                # сборка всех секций
   main.tsx               # точка входа
+```
 🎨 Кастомизация
 Цвета
 Основные цвета заданы в src/styles/variables.css:
@@ -101,3 +105,8 @@ Inter — основной текст
 
 Контент
 Все тексты и данные хранятся прямо в компонентах. Чтобы заменить услуги, цифры, отзывы или FAQ — отредактируй массивы в соответствующих файлах, например Services.tsx, Reviews.tsx, FAQ.tsx.
+
+---
+
+**Автор:** [MrKrabsArt]  
+**Лицензия:** MIT
