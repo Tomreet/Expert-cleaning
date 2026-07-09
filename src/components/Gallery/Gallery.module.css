@@ -1,0 +1,71 @@
+.gallery {
+  background: var(--color-bg-alt);
+}
+
+.comparison {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  user-select: none;
+  border: 1px solid var(--color-border);
+  background: #fff;
+  overflow: hidden;
+  cursor: ew-resize;
+}
+
+.img {
+  width: 100%;
+  display: block;
+}
+
+.afterWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Разделительная линия */
+.divider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--color-text);
+  z-index: 2;
+  pointer-events: none; /* чтобы не мешал движению мыши */
+}
+
+.handle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--color-text);
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  color: var(--color-text);
+  cursor: ew-resize;
+  z-index: 3;
+  transition: box-shadow 0.2s;
+}
+
+.handle:hover {
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
+
+.labelBefore {
+  left: var(--space-sm);
+}
+
+.labelAfter {
+  right: var(--space-sm);
+}

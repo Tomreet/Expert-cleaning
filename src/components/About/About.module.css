@@ -1,0 +1,29 @@
+.about {
+  background: var(--color-bg);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-lg);
+  align-items: center;
+}
+
+.image {
+  flex: 1 1 300px;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--color-border);
+}
+
+.text {
+  flex: 1 1 400px;
+}
+
+.text p {
+  margin-bottom: var(--space-md);
+  color: var(--color-text-muted);
+}
